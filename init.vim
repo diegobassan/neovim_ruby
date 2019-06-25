@@ -16,6 +16,9 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'honza/vim-snippets'
 
+" Tmux Navigation
+Plug 'christoomey/vim-tmux-navigator'
+
 " Syntax Check
 Plug 'vim-syntastic/syntastic'
 
