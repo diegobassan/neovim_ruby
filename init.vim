@@ -157,7 +157,9 @@ set incsearch
 
 " Backup files and backup dir
 set backup
-set backupdir=~/.backups
+set backupdir=.backup/,~/.backup/,/tmp//
+set directory=.swp/,~/.swp/,/tmp//
+set undodir=.undo/,~/.undo/,/tmp//
 
 " Line Wrap
 set lbr
