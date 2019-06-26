@@ -64,6 +64,10 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all'  }
 Plug '~/.fzf'
 Plug 'junegunn/fzf.vim'
 
+" Rainbow Parentheses Improved, shorter code, no level limit, smooth and fast, powerful configuration.
+Plug 'luochen1990/rainbow'
+let g:rainbow_active = 1 "set to 0 if you want to enable it later via :RainbowToggle
+
 " CoolIcons
 Plug 'ryanoasis/vim-devicons'
 
